@@ -14,10 +14,6 @@ public class English_Test extends Base implements App {
         select();
     }
 
-    public void stop() {
-
-    }
-
     protected void select() {
         try {
             Integer mode = stdIn.nextInt();

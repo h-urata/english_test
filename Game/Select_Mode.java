@@ -8,7 +8,7 @@ class Select_Mode {
             question.disp(select_mode_1());
         } else if (mode == 2) {
             question.disp(select_mode_2());
-        } else if (mode == 3){
+        } else if (mode == 3) {
             question.disp(select_mode_3());
         }
     }
@@ -17,6 +17,14 @@ class Select_Mode {
         String[][] array = {
                 { "猫", "cat" },
                 { "犬", "dog" },
+                { "頼む、聞く", "ask" },
+                { "賭ける", "bet" },
+                { "壊す", "break" },
+                { "料理する", "cook" },
+                { "コピーする", "copy" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
         };
         return array;
     }
@@ -25,8 +33,16 @@ class Select_Mode {
         String[][] array = {
                 { "猫", "cat" },
                 { "犬", "dog" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
         };
-        //System.out.println(Arrays.deepToString(array));
+        // System.out.println(Arrays.deepToString(array));
         return array;
     }
 
@@ -34,8 +50,16 @@ class Select_Mode {
         String[][] array = {
                 { "猫", "cat" },
                 { "犬", "dog" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
+                { "", "" },
         };
-        //System.out.println(Arrays.deepToString(array));
+        // System.out.println(Arrays.deepToString(array));
         return array;
     }
 }
