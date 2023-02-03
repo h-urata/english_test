@@ -18,8 +18,6 @@ class Select_Mode {
         }
     }
 
-    // 難易度によって配列に入れる文字を変更するメソッド
-
     // 二次元配列を定義し、作成した二次元配列を戻り値として渡すメソッド
     private String[][] select_mode_1() {
         String[][] array = {
