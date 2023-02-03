@@ -14,7 +14,7 @@ public class English_Test_Main extends Base implements App {
     public void start() {
         System.out.println("英単語テストを開始します。");
         System.out.println();
-        // Baseクラスのdifficultyメソッドの呼出し
+        // 親クラスのdifficultyメソッドの呼出し
         super.difficulty();
         // selectメソッドの呼出し
         select();

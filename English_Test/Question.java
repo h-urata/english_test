@@ -44,7 +44,7 @@ class Question extends Base {
                 wrong += 1;
             }
         }
-        // 継承したBaseクラスのresultメソッドを呼び出す
+        // 継承した親クラスのresultメソッドを呼び出す
         super.result(correct, wrong);
     }
 }
